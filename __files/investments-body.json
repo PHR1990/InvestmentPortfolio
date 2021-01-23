@@ -1,0 +1,29 @@
+{
+  "investmentsSummary" : [
+    {
+      "name" : "bondora",
+      "invested" : 100,
+      "totalIncome" : 0.53
+    },
+    {
+      "name" : "estate guru",
+      "invested" : 600,
+      "totalIncome" : 0.50
+    },
+    {
+      "name" : "mintos",
+      "invested" : 1800,
+      "totalIncome" : 0.74
+    },
+    {
+      "name" : "peer berry",
+      "invested" : 200,
+      "totalIncome" : 0
+    },
+    {
+      "name" : "trading 212 (stocks)",
+      "invested" : 600,
+      "totalIncome" : 25
+    }
+  ]
+}

@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {InvestmentsService} from "../service/investments.service";
+import {InvestmentSummary} from "../service/investments.interface";
+
 
 @Component({
   selector: 'app-home',
@@ -7,9 +10,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private investmentsService: InvestmentsService) { }
+
+  displayedColumns: string[] = ['name', 'invested', 'income'];
+
+
+  investmentsSummary:any =  {} as InvestmentSummary[];
 
   ngOnInit(): void {
+    this.investmentsService.getInvestments().subscribe(resp => {
+      this.investmentsSummary = resp.investmentsSummary;
+    });
   }
 
 }
+
+

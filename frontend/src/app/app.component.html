@@ -1,6 +1,15 @@
 <mat-toolbar color="primary">
-  <h1>
-    My Angular Store
-  </h1>
-  <button mat-button routerLink="/">Home</button>
-  <button mat-button routerLink="/about">About</button></mat-toolbar><router-outlet></router-outlet>
+  <mat-toolbar-row>
+    <h1>
+      Meu Servico como agiota
+    </h1>
+  </mat-toolbar-row>
+  <mat-toolbar-row>
+    <button mat-button routerLink="/">Principal</button>
+    <button mat-button routerLink="/about">Sobre</button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<router-outlet>
+
+</router-outlet>
