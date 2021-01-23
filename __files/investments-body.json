@@ -2,28 +2,57 @@
   "investmentsSummary" : [
     {
       "name" : "bondora",
-      "invested" : 100,
-      "totalIncome" : 0.53
+      "invested" : 50,
+      "type" : "Loans",
+      "totalIncome" : 0.53,
+      "liquidity" : "Fast",
+      "risk" : "Low",
+      "averagePercentage" : "6.5"
     },
     {
       "name" : "estate guru",
-      "invested" : 600,
-      "totalIncome" : 0.50
+      "invested" : 60,
+      "type" : "Loans",
+      "totalIncome" : 0.50,
+      "liquidity" : "Variable",
+      "risk" : "Low",
+      "averagePercentage" : "11"
     },
     {
       "name" : "mintos",
-      "invested" : 1800,
-      "totalIncome" : 0.74
+      "invested" : 180,
+      "type" : "Loans",
+      "totalIncome" : 0.74,
+      "liquidity" : "Variable",
+      "risk" : "Medium",
+      "averagePercentage" : "10.5"
     },
     {
       "name" : "peer berry",
-      "invested" : 200,
-      "totalIncome" : 0
+      "invested" : 20,
+      "type" : "Loans",
+      "totalIncome" : 0,
+      "liquidity" : "Variable",
+      "risk" : "Medium",
+      "averagePercentage" : "10"
     },
     {
       "name" : "trading 212 (stocks)",
-      "invested" : 600,
-      "totalIncome" : 25
+      "invested" : 60,
+      "type" : "Stocks",
+      "totalIncome" : 25,
+      "liquidity" : "Fast",
+      "risk" : "High",
+      "averagePercentage" : "variable"
+    },
+    {
+      "name" : "savings account",
+      "invested" : 2500,
+      "type" : "Savings Account",
+      "totalIncome" : 0,
+      "liquidity" : "Instant",
+      "risk" : "Minimum",
+      "averagePercentage" : "0"
     }
   ]
 }
